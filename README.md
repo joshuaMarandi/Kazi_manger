@@ -132,7 +132,7 @@ task_mgt/
    ```env
    PORT=5000
    NODE_ENV=development
-   JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+   JWT_SECRET=test
    FRONTEND_URL=http://localhost:3000
    DATABASE_PATH=./database.sqlite
    ```
@@ -167,7 +167,7 @@ task_mgt/
 
 ### Authentication Endpoints
 
-#### Register User
+#### Register User (Please register since we are using sqlite)
 ```http
 POST /api/auth/register
 Content-Type: application/json
