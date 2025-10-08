@@ -19,7 +19,8 @@ Some screenshots on how app works are found in app screenshot folder on the root
 - **Modern UI Design**: Clean interface with custom navy/blue color scheme (#132E60, #0C1D4E, #46ABE3)
 - **Responsive Design**: Mobile-friendly interface built with Tailwind CSS and shadcn/ui components
 - **Data Persistence**: SQLite database with proper schema design
-- **API-First Design**: RESTful API architecture for future extensibility
+- **API-First Design**: RESTful API architecture with OpenAPI documentation
+- **API Documentation**: Comprehensive API documentation in OpenAPI/Swagger format
 
 ## 🛠 Technology Stack
 
@@ -39,11 +40,32 @@ Some screenshots on how app works are found in app screenshot folder on the root
 - **express-validator** for input validation
 - **helmet** for security headers
 - **CORS** for cross-origin requests
+- **OpenAPI/Swagger** for API documentation
 
-## 📁 Project Structure
+## � API Documentation
+
+The API is documented using OpenAPI/Swagger specification. You can find the documentation in the `api-docs.yaml` file in the root directory of the project.
+
+To view the API documentation:
+
+1. Copy the contents of the `api-docs.yaml` file
+2. Open [Swagger Editor](https://editor.swagger.io/)
+3. Paste the YAML content to visualize and interact with the API documentation
+4. Alternatively, you can use tools like [Redoc](https://redocly.github.io/redoc/) or [Swagger UI](https://swagger.io/tools/swagger-ui/) to render the documentation
+
+The documentation includes:
+
+- Authentication endpoints
+- Task management endpoints
+- Request/response schemas
+- Error responses
+- Query parameters for filtering and sorting
+
+## �📁 Project Structure
 
 ```
 task_mgt/
+├── api-docs.yaml                  # API documentation in OpenAPI/Swagger format
 ├── backend/
 │   ├── src/
 │   │   ├── config/
