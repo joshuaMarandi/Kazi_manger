@@ -410,18 +410,4 @@ npm test
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Write tests for new functionality
-5. Submit a pull request
-
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
-
----
-
-**Built with ❤️ by the Task Management Team**
+**Built with ❤️ by Joshua Marandi**
